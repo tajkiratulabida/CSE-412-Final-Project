@@ -1,0 +1,30 @@
+.quiz-card {
+  margin-bottom: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.quiz-title {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02rem;
+  font-size: 1rem;
+}
+
+.quiz-card img {
+  height: 130px;
+  object-fit: cover;
+}
+
+.quiz-card-link:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.quiz-card .card-body {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
